@@ -1,0 +1,100 @@
+.chatRoom {
+    min-height: 100vmin;
+    min-width: 100%;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    
+    top: 0;
+    left: 0;
+
+    background-color: grey;
+    margin-bottom: 200px;
+}
+
+.chatRoom .messagelist .message-container{
+  height: auto;
+  padding: 10px;
+  display: flex;
+}
+
+
+.chatRoom .messagelist .message-container .message-content{
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 200px;
+  background-color: #43a047;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  
+  
+}
+
+#you{
+  justify-content: flex-end;
+}
+
+#you .message-content{
+  justify-content: flex-end;
+  
+  
+}
+
+#you .message-sender{
+  justify-content: flex-end;
+}
+
+
+
+
+#other{
+  justify-content: flex-start;
+}
+
+#other .message-content{
+  justify-content: flex-start;
+  background-color: cornflowerblue;
+  
+}
+
+#other .message-sender{
+  justify-content: flex-start;
+}
+
+
+
+.chatRoom .chat-text {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+
+}
+
+.chatRoom .chat-text input{
+  padding: 20px;
+  width: 80%;
+  background-color: grey;
+  color: white;
+  font-size: 22px;
+}
+
+
+.chatRoom .chat-text button{
+  padding: 20px;
+  width: 20%;
+  background-color: #43a047;
+  color: white;
+}

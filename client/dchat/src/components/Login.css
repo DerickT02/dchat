@@ -1,0 +1,49 @@
+
+  .login{
+    text-align: center;
+  }
+  
+  .login .loginContainer {
+   background-color: rgb(63, 63, 83);
+   padding:.625%;
+   margin-left: 10%;
+   margin-right:10%;
+   margin-top:10vm;
+   color: white;
+   border-radius: 20px;
+  }
+  
+  .login .loginContainer .inputContainer{
+    padding-top: 20px;
+  }
+  
+  .login .loginContainer input {
+    margin-top: 10px;
+    border: 2px solid #603bbb;
+    width: 75%;
+    padding: 10px;
+    background-color: rgb(49, 49, 63);
+    border-radius: 20px;
+    color: white;
+  }
+  
+  
+  
+  
+  .btnContainer {
+    margin-top: 200px;
+  }
+  
+  
+  .btnContainer button {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #603bbb;
+    cursor: pointer;
+  }

@@ -1,0 +1,46 @@
+.homepage {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: grey;
+    
+}
+
+.homepage .nav{
+    margin-bottom: 1vmin;  
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    background-color: darkgray;
+}
+
+.homepage .nav button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.homepage .room-container{
+    position: relative;
+
+}
+
+@media (max-width: 800px) {
+    .homepage .nav{
+        flex-direction: column;
+       
+        background-color: darkgray;
+    }
+    
+}
